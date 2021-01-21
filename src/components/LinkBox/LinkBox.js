@@ -12,9 +12,9 @@ const LinkBox = ({
   text = text || "NOT FOUND"
   url = url || "#"
   
-  return (<div className="link-container flex-p-hor flex-p-center-absolute">
-    <a className="link-text" href={url} target="_blank" rel="noopener noreferrer">{text}</a>
-  </div>)
+  return (
+    <a href={url} target="_blank" rel="noopener noreferrer">
+      <div className="link-container link-text flex-p-hor flex-p-center-absolute">{text}</div></a>)
 }
 
 export default LinkBox;
