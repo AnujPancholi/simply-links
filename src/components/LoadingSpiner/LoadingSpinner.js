@@ -1,12 +1,25 @@
-import React from 'react'
+import React from 'react';
 
-import './LoadingSpinner.css'
+import './LoadingSpinner.css';
 import '../../css/flex.css';
 
 const LoadingSpinner = () => {
+  return (
+    <div className="lds-spinner">
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+  );
+};
 
-    return (<div className="lds-spinner"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>)
-}
-
-
-export default LoadingSpinner
+export default LoadingSpinner;

@@ -1,28 +1,26 @@
-
-.flex-p{
+.flex-p {
   display: flex;
 }
-  
-.flex-p-hor{
+
+.flex-p-hor {
   display: flex;
   flex-direction: row;
 }
-  
-.flex-p-ver{
+
+.flex-p-ver {
   display: flex;
   flex-direction: column;
 }
- 
-.flex-p-justify-center{
+
+.flex-p-justify-center {
   justify-content: center;
 }
-  
-.flex-p-align-center{
+
+.flex-p-align-center {
   align-items: center;
 }
-  
-.flex-p-center-absolute{
+
+.flex-p-center-absolute {
   justify-content: center;
   align-items: center;
 }
-  

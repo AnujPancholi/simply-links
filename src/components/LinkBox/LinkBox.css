@@ -1,4 +1,4 @@
-.link-container{
+.link-container {
   width: 35vw;
   min-width: 15em;
   max-width: 85vw;
@@ -13,10 +13,10 @@
 }
 
 .link-container:hover {
-    background-color: var(--aux-color);
+  background-color: var(--aux-color);
 }
-  
-.link-text{
+
+.link-text {
   text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden;
