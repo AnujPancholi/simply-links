@@ -12,9 +12,17 @@
   height: 100%;
 }
 
+.greedy-container {
+  height: 100%;
+  width: 100%;
+}
+
 .name-text{
   z-index: 2;
   transform: translate(0,-1.5em);
+  padding-left: 1em;
+  padding-right: 1em;
+  border-radius: 0.5em;
   color: white;
   background-color: black;
 }
