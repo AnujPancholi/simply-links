@@ -1,0 +1,16 @@
+.link-container{
+  min-width: 35vw;
+  max-width: 85vw;
+  margin-top: 0.25em;
+  margin-bottom: 0.25em;
+  padding-left: 0.15em;
+  padding-right: 0.15em;
+  border: 1px solid black;
+  border-radius: 0.25em;
+}
+  
+.link-text{
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}

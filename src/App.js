@@ -2,6 +2,7 @@ import './App.css';
 
 import './css/flex.css'
 
+import LinkBox from './components/LinkBox/LinkBox.js';
 
 const TitlePicture = () => {
 
@@ -10,19 +11,6 @@ const TitlePicture = () => {
   </div>)
 }
 
-const LinkBox = ({
-  text,
-  url
-}) => {
-
-  text = text || "Link Text"
-  url = url || "http://www.google.com"
-
-  return (<div className="link-container flex-p-hor flex-p-center-absolute">
-    <a className="link-text" href={url} target="_blank" rel="noopener noreferrer">{text}</a>
-
-  </div>)
-}
 
 function App() {
   return (
