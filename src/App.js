@@ -17,7 +17,7 @@ const LinkBox = ({
   text = text || "Link Text"
 
   return (<div className="link-container flex-p-hor flex-p-center-absolute">
-    <a className="link-item" href="http://www.google.com" target="_blank" rel="noopener noreferrer">{text}</a>
+    <a className="link-text" href="http://www.google.com" target="_blank" rel="noopener noreferrer">{text}</a>
 
   </div>)
 }
@@ -26,8 +26,9 @@ function App() {
   return (
     <div className="App flex-p-ver flex-p-center-absolute">
       <div className="main-conatainer flex-p-ver flex-p-align-center">
-        <div className="flex-p-hor flex-p-center-absolute">
+        <div className="flex-p-ver flex-p-center-absolute">
           <TitlePicture />
+          <div className="name-text">Anuj Pancholi</div>
        </div>
         <div>
           <LinkBox />

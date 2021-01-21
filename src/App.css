@@ -2,15 +2,24 @@
   min-width: 80%;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 2em;
+  /* padding-top: 2em; */
   height: 100vh;
-  margin-bottom: 2em;
+  /* margin-bottom: 2em; */
+  
 }
 
 .main-conatainer {
+  padding-top: 1em;
   border: 0.5px solid red;
   min-width: 90%;
   height: 100%;
+}
+
+.name-text{
+  z-index: 2;
+  transform: translate(0,-1.5em);
+  color: white;
+  background-color: black;
 }
 
 .title-pic-img{
@@ -30,9 +39,8 @@
   border-radius: 0.25em;
 }
 
-.link-item{
+.link-text{
   text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden;
 }
-
