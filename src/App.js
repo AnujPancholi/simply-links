@@ -43,9 +43,9 @@ function App() {
           
         </div>) : (<><div className="flex-p-ver flex-p-center-absolute">
         <div>
-    <img className="title-pic-img" src="https://avatars2.githubusercontent.com/u/25117330?v=4" alt="text" />
+    <img className="title-pic-img" src={userData.basic_info.pic_url} alt="text" />
   </div>
-          <div className="name-text">Anuj Pancholi</div>
+          <div className="name-text">{userData.basic_info.name}</div>
        </div>
         <div>
           {
