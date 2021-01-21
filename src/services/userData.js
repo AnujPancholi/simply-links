@@ -26,10 +26,8 @@ const USER_DATA_TEMP = {
 
 export const getUserData = () => {
   return new Promise((resolve,reject) => {
-    // setTimeout(() => {
+    // making this a promise as this may be an API call
       resolve(USER_DATA_TEMP)
-    
-    // },3000)
   })
     
 }
