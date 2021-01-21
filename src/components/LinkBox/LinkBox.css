@@ -6,6 +6,8 @@
   margin-bottom: 0.5em;
   padding-left: 0.15em;
   padding-right: 0.15em;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
   border: 1px solid black;
   border-radius: 0.25em;
 }
