@@ -1,0 +1,28 @@
+
+.flex-p{
+  display: flex;
+}
+  
+.flex-p-hor{
+  display: flex;
+  flex-direction: row;
+}
+  
+.flex-p-ver{
+  display: flex;
+  flex-direction: column;
+}
+ 
+.flex-p-justify-center{
+  justify-content: center;
+}
+  
+.flex-p-align-center{
+  align-items: center;
+}
+  
+.flex-p-center-absolute{
+  justify-content: center;
+  align-items: center;
+}
+  
