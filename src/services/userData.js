@@ -26,10 +26,10 @@ const USER_DATA_TEMP = {
 
 export const getUserData = () => {
   return new Promise((resolve,reject) => {
-    setTimeout(() => {
+    // setTimeout(() => {
       resolve(USER_DATA_TEMP)
     
-    },3000)
+    // },3000)
   })
     
 }
