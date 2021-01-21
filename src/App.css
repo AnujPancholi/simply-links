@@ -1,9 +1,20 @@
+:root{
+  --text-color-default: black;
+  --bg-color-default: white;
+  --aux-color: #797979;
+}
+
 .App {
   min-width: 80%;
   margin-left: auto;
   margin-right: auto;
   height: 100vh;
 }
+
+a {
+  color: var(--text-color-default);
+}
+
 
 .main-conatainer {
   padding-top: 1em;
@@ -30,5 +41,6 @@
 .title-pic-img{
   max-height: 10em;
   border-radius: 50%;
-  border: 0.5px solid red;
+  background-color: var(--aux-color);
+  /* border: 0.5px solid red; */
 }

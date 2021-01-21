@@ -8,8 +8,12 @@
   padding-right: 0.15em;
   padding-top: 0.5em;
   padding-bottom: 0.5em;
-  border: 1px solid black;
+  border: 1px solid var(--text-color-default);
   border-radius: 0.25em;
+}
+
+.link-container:hover {
+    background-color: var(--aux-color);
 }
   
 .link-text{

@@ -43,7 +43,7 @@ function App() {
           
         </div>) : (<><div className="flex-p-ver flex-p-center-absolute">
         <div>
-    <img className="title-pic-img" src={userData.basic_info.pic_url} alt="text" />
+    <img className="title-pic-img" src={userData.basic_info.pic_url} alt="user pic" />
   </div>
           <div className="name-text">{userData.basic_info.name}</div>
        </div>
