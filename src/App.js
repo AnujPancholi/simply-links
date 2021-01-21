@@ -7,31 +7,7 @@ import './css/flex.css'
 import LinkBox from './components/LinkBox/LinkBox.js';
 import LoadingSpinner from './components/LoadingSpiner/LoadingSpinner.js'
 
-
-const getUserData = () => {
-  return new Promise((resolve,reject) => {
-    setTimeout(() => {
-      resolve({
-        basic_info: {
-          name: "Anuj Pancholi",
-          pic_url: "https://avatars2.githubusercontent.com/u/25117330?v=4"
-        },
-        links: [{
-          text: "Github",
-          url: "https://github.com/AnujPancholi"
-        },{
-          text: "Stackoverflow",
-          url: "https://stackoverflow.com/users/6718353/anuj-pancholi"
-        }]
-    
-      })
-  
-    },3000)
-
-  })
-  
-  
-}
+import {getUserData} from "./services/userData.js";
 
 
 function App() {
