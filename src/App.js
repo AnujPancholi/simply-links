@@ -29,10 +29,10 @@ function App() {
         <div className="flex-p-hor flex-p-center-absolute">
           <TitlePicture />
        </div>
-       <div>
-        <LinkBox />
-        <LinkBox text="Link sdlfjksldifjsoifnsoijfsoidnfoejnf sldkjfsl"/>
-         </div>
+        <div>
+          <LinkBox />
+          <LinkBox text="Link sdlfjksldifjsoifnsoijfsoidnfoejnf sldkjfsl"/>
+        </div>
       </div>
     </div>
   );
