@@ -1,5 +1,6 @@
 .link-container{
-  min-width: 35vw;
+  width: 35vw;
+  min-width: 15em;
   max-width: 85vw;
   margin-top: 0.25em;
   margin-bottom: 0.25em;

@@ -51,6 +51,7 @@ function App() {
         })
       }catch(e){
         console.error(e);
+        
       }
     })()
     
@@ -71,8 +72,11 @@ function App() {
           <div className="name-text">Anuj Pancholi</div>
        </div>
         <div>
-          <LinkBox />
-          <LinkBox text="Link sdlfjksldifjsoifnsoijfsoidnfoejnf sldkjfsl"/>
+          {
+            userData.links.map(linkObj => {
+              return (<LinkBox key={linkObj.text} text={linkObj.text} url={linkObj.url} />)
+            })
+          }
         </div></>)
         }
 

@@ -5,7 +5,7 @@ import '../../css/flex.css';
 
 const LoadingSpinner = () => {
 
-    return (<div class="lds-spinner"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>)
+    return (<div className="lds-spinner"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>)
 }
 
 
