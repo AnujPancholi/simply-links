@@ -17,6 +17,10 @@ const USER_DATA_TEMP = {
       url: 'https://www.linkedin.com/in/anuj-pancholi-830056104/',
     },
     {
+      text: 'AngelList',
+      url: 'https://angel.co/u/anuj-pancholi',
+    },
+    {
       text: 'Dev.to',
       url: 'https://dev.to/anujpancholi',
     },
