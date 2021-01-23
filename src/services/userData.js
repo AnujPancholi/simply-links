@@ -1,4 +1,3 @@
-
 export const getUserData = () => {
   return new Promise((resolve, reject) => {
     const USER_DATA_TEMP = {
