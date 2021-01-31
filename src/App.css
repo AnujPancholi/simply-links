@@ -55,6 +55,7 @@ a {
 .title-pic-img {
   max-height: 10em;
   border-radius: 50%;
+  box-shadow: 0em -0.25em 0.25em;
   border: 0.5px solid var(--aux-color);
 }
 
