@@ -33,36 +33,41 @@ function App() {
   return (
     <div className="App flex-p-ver flex-p-center-absolute">
       <div className="main-conatainer flex-p-ver flex-p-align-center">
-        {userData.isLoading ? (
-          <div className="greedy-container flex-p-ver flex-p-center-absolute">
-            <LoadingSpinner />
-          </div>
-        ) : (
-          <>
-            <div className="flex-p-ver flex-p-center-absolute">
-              <div>
-                <img
-                  className="title-pic-img"
-                  src={userData.basic_info.pic_url}
-                  alt="user pic"
-                />
-              </div>
-              <div className="name-text">{userData.basic_info.name}</div>
+        <div className="card-container flex-p-ver flex-p-align-center">
+          {userData.isLoading ? (
+            <div className="greedy-container flex-p-ver flex-p-center-absolute">
+              <LoadingSpinner />
             </div>
-            <div>
-              {userData.links.map((linkObj) => {
-                return (
-                  <LinkBox
-                    key={linkObj.text}
-                    text={linkObj.text}
-                    url={linkObj.url}
+          ) : (
+            <>
+              <div className="flex-p-ver flex-p-center-absolute">
+                <div>
+                  <img
+                    className="title-pic-img"
+                    src={userData.basic_info.pic_url}
+                    alt="user pic"
                   />
-                );
-              })}
-            </div>
-          </>
-        )}
+                </div>
+                <div className="name-text">{userData.basic_info.name}</div>
+              </div>
+              <div>
+                {userData.links.map((linkObj) => {
+                  return (
+                    <LinkBox
+                      key={linkObj.text}
+                      text={linkObj.text}
+                      url={linkObj.url}
+                    />
+                  );
+                })}
+              </div>
+            </>
+          )}
+        </div>
       </div>
+      <footer className="footer">
+        <div className="footer-content">© Copyright 2021. Anuj Pancholi</div>
+      </footer>
     </div>
   );
 }
