@@ -33,6 +33,7 @@ function App() {
   return (
     <div className="App flex-p-ver flex-p-center-absolute">
       <div className="main-conatainer flex-p-ver flex-p-align-center">
+        <div className="card-container flex-p-ver flex-p-align-center">
         {userData.isLoading ? (
           <div className="greedy-container flex-p-ver flex-p-center-absolute">
             <LoadingSpinner />
@@ -62,6 +63,7 @@ function App() {
             </div>
           </>
         )}
+        </div>
       </div>
     </div>
   );
