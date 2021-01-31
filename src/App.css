@@ -2,6 +2,7 @@
   --text-color-default: black;
   --bg-color-default: white;
   --aux-color: #797979;
+  --text-small: 0.7em;
 }
 
 .App {
@@ -12,7 +13,7 @@
   z-index: 2;
 }
 
-.particles-canvas{
+.particles-canvas {
   z-index: -1;
   height: 100%;
   width: 100%;
@@ -30,7 +31,7 @@ a {
   height: 100%;
 }
 
-.card-container{
+.card-container {
   padding: 1em;
   border-radius: 0.75em;
   box-shadow: 0em 0em 0.5em;
@@ -55,4 +56,18 @@ a {
   max-height: 10em;
   border-radius: 50%;
   border: 0.5px solid var(--aux-color);
+}
+
+.footer {
+  width: 100%;
+  font-size: var(--text-small);
+
+  border-top: 0.05em solid var(--aux-color);
+}
+
+.footer-content {
+  padding-top: 1.25em;
+  padding-bottom: 1.25em;
+  padding-left: 1em;
+  padding-right: 1em;
 }
