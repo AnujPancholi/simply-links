@@ -17,6 +17,11 @@ a {
   color: var(--text-color-default);
 }
 
+h1 {
+  font-size: 1em;
+  margin: 0px;
+}
+
 .main-conatainer {
   padding-top: 1em;
   min-width: 90%;
@@ -36,9 +41,12 @@ a {
 
 .name-text {
   z-index: 2;
+  font-size: 1em;
   transform: translate(0, -1.5em);
   padding-left: 1em;
   padding-right: 1em;
+  padding-top: 0.25em;
+  padding-bottom: 0.25em;
   border-radius: 0.5em;
   color: white;
   background-color: black;

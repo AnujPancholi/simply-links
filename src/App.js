@@ -48,7 +48,7 @@ function App() {
                     alt="user pic"
                   />
                 </div>
-                <div className="name-text">{userData.basic_info.name}</div>
+                <div className="name-text"><h1>{userData.basic_info.name}</h1></div>
               </div>
               <div>
                 {userData.links.map((linkObj) => {
