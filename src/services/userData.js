@@ -15,6 +15,10 @@ export const getUserData = () => {
           url: 'https://stackoverflow.com/users/6718353/anuj-pancholi',
         },
         {
+          text: "NPM",
+          url: "https://www.npmjs.com/~professorchaos"
+        },
+        {
           text: 'LinkedIn',
           url: 'https://www.linkedin.com/in/anuj-pancholi-830056104/',
         },
